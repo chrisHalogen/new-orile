@@ -1,0 +1,25 @@
+@import "../../global.scss";
+
+.walkins {
+  background-color: $main-color;
+  .inner {
+    @include inner-box();
+    padding: 10rem 0;
+
+    h1 {
+      @include title-text();
+      color: $main-bg;
+      text-align: center;
+    }
+
+    p {
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: $soft-bg;
+      @include regular-text;
+      margin: 0 auto;
+      margin-top: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+export { default as Hero } from "./hero/Hero";
+export { default as GridSection } from "./gridSection/GridSection";
+export { default as CtaSection } from "./ctaSection/CtaSection";
+export { default as Walkins } from "./walkIns/Walkins";
+export { default as Admission } from "./admission/Admission";
+export { default as Safety } from "./safety/Safety";
+export { default as Footer } from "./footer/Footer";
+export { default as SocialLinks } from "./socialLinks/SocialLinks";
+export { default as Menu } from "./menu/Menu";

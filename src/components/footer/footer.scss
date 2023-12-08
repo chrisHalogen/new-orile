@@ -1,0 +1,61 @@
+@import "../../global.scss";
+
+.footer {
+  @include inner-box();
+  background-color: $soft-bg;
+  padding: 5rem 0;
+  display: grid;
+  grid-template-areas:
+    "contact contact map map"
+    "credit credit credit credit";
+
+  @include md() {
+    grid-template-areas:
+      "contact"
+      "map"
+      "credit";
+  }
+
+  p {
+    @include regular-text();
+    color: $main-color;
+    line-height: 1.75;
+
+    @include md() {
+      text-align: center;
+    }
+  }
+
+  .contact {
+    grid-area: contact;
+
+    p {
+      margin-bottom: 2rem;
+      a {
+        color: $dark-color;
+      }
+    }
+  }
+
+  .map {
+    grid-area: map;
+    width: 100% !important;
+    height: 450px !important;
+  }
+
+  .credit {
+    border-top: 1px solid $soft-color;
+    padding-top: 2rem;
+    margin-top: 4rem;
+    grid-area: credit;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include md() {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+}
