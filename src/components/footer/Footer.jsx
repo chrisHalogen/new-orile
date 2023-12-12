@@ -25,9 +25,9 @@ const Footer = ({ theRef }) => {
             orilerestaurantandbar@gmail.com
           </a>
           <br />
-          Phone: <a href="tel:+2349016666660">+234 901 666 6660</a>
+          Phone: <a href="tel:+2349136800000">+234 913 680 0000</a>
           <br />
-          Whatsapp: <a href="https://wa.me/+2349016666660">+234 901 666 6660</a>
+          Whatsapp: <a href="https://wa.me/+2349136800000">+234 913 680 0000</a>
           <br />
         </p>
       </div>

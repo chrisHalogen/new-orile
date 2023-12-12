@@ -24,7 +24,7 @@ const Hero = ({ toAbout, toMenu, toRSVP, toContact }) => {
     <div className="container-body">
       <ParallaxBanner
         layers={[
-          { image: "/hero-bg.jpg", speed: -10 },
+          { image: "/hero.jpeg", speed: -10 },
           //   {
           //     speed: -15,
           //     children: (
@@ -74,12 +74,17 @@ const Hero = ({ toAbout, toMenu, toRSVP, toContact }) => {
           </div>
           <div className="hero-text">
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Veritatis temporibus praesentium soluta assumenda delectus.
-              Doloribus nostrum repudiandae assumenda, ullam, sint, ipsam id
-              error totam inventore laboriosam explicabo eveniet blanditiis?
-              Fugit tempora nostrum inventore maxime odio ducimus molestiae
-              necessitatibus quas distinctio.
+              Welcome to our upscale restaurant and bar in the heart of Lekki,
+              where we blend luxury with incredible food and drinks. Our
+              talented chefs create dishes using the best ingredients, ensuring
+              every bite is a delight. Step into an elegant atmosphere designed
+              for memorable dining experiences, whether you're enjoying a cozy
+              dinner, celebrating a special occasion, or sipping on expertly
+              crafted cocktails at our bar. We're dedicated to providing
+              top-notch service and exceptional cuisine, making each visit a
+              celebration of great flavors and unforgettable moments. Join us in
+              this culinary haven, where extraordinary tastes meet everyday
+              enjoyment.
             </p>
           </div>
         </div>

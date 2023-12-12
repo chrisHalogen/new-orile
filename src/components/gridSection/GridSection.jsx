@@ -12,25 +12,29 @@ const GridSection = ({ theRef }) => {
     <div className="grid-section" ref={theRef}>
       <div className="plain-text" ref={elementRef}>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem
-          unde debitis architecto! Odit ipsa nobis aliquid, error perspiciatis
-          illum non vel eveniet iusto expedita cum! Odio, itaque. Nobis, quae!
+          Our menu is based on ancient cooking methods redesigned to meet the
+          modern diners needs. We are heavily influenced by African flavors with
+          an international touch set in a casual, yet luxurious and lush
+          atmosphere.
         </p>
         <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem
-          unde debitis architecto! Odit ipsa nobis aliquid, error perspiciatis
-          illum non vel eveniet iusto expedita cum! Odio, itaque. Nobis, quae!
+          Our cocktail bar is designed to give a classic, lavish but
+          approachable and friendly experience where you will discover new
+          flavors thanks to our no boundary approach to cocktail creativity but
+          also reminisce on the days that were with our classic cocktail
+          selection.
         </p>
         <br />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem
-          unde debitis architecto! Odit ipsa nobis aliquid, error perspiciatis
-          illum non vel eveniet iusto expedita cum! Odio, itaque. Nobis, quae!
+          We offer indoor and outdoor seating and several different dining
+          options such as booths, high tables and dining on the bar. The
+          restaurant adheres to a strict no smoking policy except in designated
+          outdoor areas.
         </p>
       </div>
       <img
-        src="/grid-image.jpg"
+        src="/outdoor.jpeg"
         alt="grid image"
         style={{ height: `${height}px` }}
       />

@@ -39,6 +39,10 @@
           padding: 0.5rem 0.8rem;
         }
 
+        &.active {
+          background-color: $main-color;
+        }
+
         &:hover {
           background-color: $main-color;
         }

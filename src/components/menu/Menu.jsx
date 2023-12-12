@@ -32,9 +32,24 @@ const Menu = ({ theRef }) => {
       <div className="inner">
         <h1>Our Menu</h1>
         <div className="tod-selector">
-          <button onClick={() => setValues(1)}>Breakfast</button>
-          <button onClick={() => setValues(2)}>Lunch</button>
-          <button onClick={() => setValues(3)}>Dinner</button>
+          <button
+            className={timeOfDay == 1 ? "active" : ""}
+            onClick={() => setValues(1)}
+          >
+            Breakfast
+          </button>
+          <button
+            className={timeOfDay == 2 ? "active" : ""}
+            onClick={() => setValues(2)}
+          >
+            Lunch
+          </button>
+          <button
+            className={timeOfDay == 3 ? "active" : ""}
+            onClick={() => setValues(3)}
+          >
+            Dinner
+          </button>
         </div>
 
         {renderImages(timeOfDay, numPages)}
