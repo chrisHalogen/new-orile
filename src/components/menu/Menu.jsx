@@ -5,7 +5,7 @@ const Menu = ({ theRef }) => {
   const [timeOfDay, setTimeOfDay] = useState(1);
   const [numPages, setNumPages] = useState(4);
 
-  const nums = [4, 10, 10];
+  const nums = [4, 10, 13];
 
   let setValues = (value) => {
     setTimeOfDay(value);
@@ -33,19 +33,19 @@ const Menu = ({ theRef }) => {
         <h1>Our Menu</h1>
         <div className="tod-selector">
           <button
-            className={timeOfDay == 1 ? "active" : ""}
+            className={timeOfDay === 1 ? "active" : ""}
             onClick={() => setValues(1)}
           >
             Breakfast
           </button>
           <button
-            className={timeOfDay == 2 ? "active" : ""}
+            className={timeOfDay === 2 ? "active" : ""}
             onClick={() => setValues(2)}
           >
             Lunch
           </button>
           <button
-            className={timeOfDay == 3 ? "active" : ""}
+            className={timeOfDay === 3 ? "active" : ""}
             onClick={() => setValues(3)}
           >
             Dinner
