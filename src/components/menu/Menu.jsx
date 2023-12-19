@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./menu.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Menu = ({ theRef }) => {
   const [timeOfDay, setTimeOfDay] = useState(1);
@@ -16,7 +17,7 @@ const Menu = ({ theRef }) => {
     const listItems = [];
     for (let i = 0; i < num; i++) {
       listItems.push(
-        <img
+        <LazyLoadImage
           className="current-image"
           src={`/menu-images/orile-${tod}-${i}.jpg`}
           alt="Menu Image"
