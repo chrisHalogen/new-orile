@@ -22,6 +22,7 @@ const Menu = ({ theRef }) => {
           src={`/menu-images/orile-${tod}-${i}.jpg`}
           alt="Menu Image"
           key={i}
+          PlaceholderSrc={`/missing.png`}
         />
       );
     }
