@@ -34,7 +34,7 @@ const GridSection = ({ theRef }) => {
         </p>
       </div>
       <img
-        src="/outdoor.jpeg"
+        src="/food.jpeg"
         alt="grid image"
         style={{ height: `${height}px` }}
       />
