@@ -22,6 +22,10 @@
       max-width: 900px;
       margin: 0 auto;
       //   word-break: break-all;
+
+      @include below-screen(600px) {
+        font-size: 24px;
+      }
     }
   }
 }

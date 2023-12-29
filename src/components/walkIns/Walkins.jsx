@@ -3,7 +3,12 @@ import "./walkins.scss";
 
 const Walkins = ({ theRef }) => {
   return (
-    <div className="walkins" ref={theRef}>
+    <div
+      style={{ backgroundImage: `url("/grid-new-1.png")` }}
+      className="walkins"
+      ref={theRef}
+    >
+      <div className="overlay"></div>
       <div className="inner">
         <h1>Walk-ins welcome but reservations are highly recommended. </h1>
         <p>
