@@ -9,7 +9,7 @@ const Footer = ({ theRef }) => {
         <p>
           <b>Address</b>
           <br />
-          Orile Restaurant and Bar
+          Orílé Restaurant and Bar
           <br />
           2, Ichie Chris,
           <br />

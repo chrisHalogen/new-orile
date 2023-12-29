@@ -74,7 +74,7 @@ const Hero = ({ toAbout, toMenu, toRSVP, toContact }) => {
           </div>
           <div className="hero-text">
             <p>
-              Orilè is a culture inclined afro-fusion restaurant focused on
+              Orílé is a culture inclined afro-fusion restaurant focused on
               ethnic and contemporary cuisine.
               <br />
               <br />
@@ -82,7 +82,7 @@ const Hero = ({ toAbout, toMenu, toRSVP, toContact }) => {
               across a rich blend of classic flavors for every taste type.
               <br />
               <br />
-              The Garden by Orile is an outdoor dining area with a conducive and
+              The Garden by Orílé is an outdoor dining area with a conducive and
               refreshing ambience with a well curated menu of mouth watering
               small plated dishes, platters for group dining and all kinds of
               drinks for every mood.
