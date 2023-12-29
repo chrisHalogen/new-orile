@@ -3,7 +3,7 @@ import "./ctaSection.scss";
 
 const CtaSection = ({ toMenu, toContact }) => {
   return (
-    <div style={{ backgroundImage: `url("/cta-bg.jpg")` }} className="cta">
+    <div style={{ backgroundImage: `url("/seafood.jpeg")` }} className="cta">
       <div className="overlay"></div>
       <div className="inner">
         <h1>We take food and fun seriously, and we take it Slow.</h1>

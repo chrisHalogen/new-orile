@@ -15,7 +15,7 @@
     @include inner-box();
     h1 {
       color: $main-bg;
-      @include title-text();
+      @include header-text();
       color: $main-bg;
       text-align: center;
       width: 90%;

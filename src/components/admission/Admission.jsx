@@ -6,14 +6,15 @@ const Admission = () => {
   return (
     <div className="">
       <ParallaxBanner
-        layers={[{ image: "/admissions.jpg", speed: -10 }]}
+        layers={[{ image: "/cocktail.jpeg", speed: -10 }]}
         className="admission"
       >
         <div className="admission">
           <div className="content">
             <h1>
-              Seating at the bar is reserved for ages 21 and above. Management
-              reserves the right of admission.
+              Our Cocktail Bar offers the finest blend of originally curated
+              signature cocktails, with distinct flavors and taste for every
+              mood type- Sweet, Sour, Sweet-Sour.
             </h1>
           </div>
         </div>
