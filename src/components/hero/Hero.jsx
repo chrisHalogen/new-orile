@@ -24,7 +24,7 @@ const Hero = ({ toAbout, toMenu, toRSVP, toContact }) => {
     <div className="container-body">
       <ParallaxBanner
         layers={[
-          { image: "/hero.jpeg", speed: -10 },
+          { image: "/hero-entry.jpeg", speed: -10 },
           //   {
           //     speed: -15,
           //     children: (
@@ -39,7 +39,7 @@ const Hero = ({ toAbout, toMenu, toRSVP, toContact }) => {
         <div className="bg-container">
           <div className="navbar">
             <div className="logo-container">
-              <img src="/logo.png" alt="orile logo" />
+              <img src="/logo-final.png" alt="orile logo" />
             </div>
             <div className="hamburg-icon" id="hamburg">
               <IoMenu onClick={toggleMobile} />
@@ -74,17 +74,18 @@ const Hero = ({ toAbout, toMenu, toRSVP, toContact }) => {
           </div>
           <div className="hero-text">
             <p>
-              Welcome to our upscale restaurant and bar in the heart of Lekki,
-              where we blend luxury with incredible food and drinks. Our
-              talented chefs create dishes using the best ingredients, ensuring
-              every bite is a delight. Step into an elegant atmosphere designed
-              for memorable dining experiences, whether you're enjoying a cozy
-              dinner, celebrating a special occasion, or sipping on expertly
-              crafted cocktails at our bar. We're dedicated to providing
-              top-notch service and exceptional cuisine, making each visit a
-              celebration of great flavors and unforgettable moments. Join us in
-              this culinary haven, where extraordinary tastes meet everyday
-              enjoyment.
+              Orilè is a culture inclined afro-fusion restaurant focused on
+              ethnic and contemporary cuisine.
+              <br />
+              <br />
+              We boast of a spectacular list of signature cocktails, that cuts
+              across a rich blend of classic flavors for every taste type.
+              <br />
+              <br />
+              The Garden by Orile is an outdoor dining area with a conducive and
+              refreshing ambience with a well curated menu of mouth watering
+              small plated dishes, platters for group dining and all kinds of
+              drinks for every mood.
             </p>
           </div>
         </div>
